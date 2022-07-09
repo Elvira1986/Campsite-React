@@ -1,3 +1,4 @@
+import UserLoginForm from "../features/user/UserLoginForm";
 import { useState } from "react";
 import {
   Navbar,
@@ -43,6 +44,7 @@ const Header = () => {
             </NavLink>
           </NavItem>
         </Nav>
+        <UserLoginForm></UserLoginForm>
       </Collapse>
     </Navbar>
   );
